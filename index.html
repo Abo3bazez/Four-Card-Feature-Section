@@ -2,90 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-
-    <!-- Main CSS File -->
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <!-- Main CSS File -->
-
-    <!-- fonts -->
-
-    <!-- fonts -->
     <title>Frontend Mentor | Four card feature section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <meta
+      name="description"
+      content="Discover our AI-powered tools for efficient project management and team building."
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" href="./assets/images/favicon-32x32.png" />
   </head>
   <body>
-    <div class="content">
+    <main class="content">
       <div class="content-wrapper">
-        <div class="top-text">
-          <div>
+        <header class="top-text">
+          <h1>
             <span>Reliable, efficient delivery</span>
             <span>Powered by Technology</span>
-          </div>
+          </h1>
           <p>
             Our Artificial Intelligence powered tools use millions of project
             data points to ensure that your project is successful
           </p>
-        </div>
-        <div class="card one">
-          <h2>Supervisor</h2>
-          <p>Monitors activity to identify project roadblocks</p>
-          <img src="./assets/images/icon-supervisor.svg" alt="" />
-        </div>
-        <div class="card two">
-          <h2>Team Builder</h2>
-          <p>
-            Scans our talent network to create the optimal team for your project
-          </p>
-          <img src="./assets/images/icon-team-builder.svg" alt="" />
-        </div>
-        <div class="card three">
-          <h2>Karma</h2>
-          <p>Regularly evaluates our talent to ensure quality</p>
-          <img src="./assets/images/icon-karma.svg" alt="" />
-        </div>
-        <div class="card four">
-          <h2>Calculator</h2>
-          <p>
-            Uses data from past projects to provide better delivery estimates
-          </p>
-          <img src="./assets/images/icon-calculator.svg" alt="" />
-        </div>
-        <!-- <footer class="attribution" aria-label="links">
-          Challenge by
-          <a
-            href="https://www.frontendmentor.io?ref=challenge"
-            target="_blank"
-            aria-label="front-end mentor website"
-            >Frontend Mentor</a
-          >. Coded by <br />
-          <a
-            href="https://www.frontendmentor.io/profile/Abo3bazez"
-            aria-label="developer's profile on front-end mentor"
-            >Ahmed Aziz</a
-          >.
-        </footer> -->
+        </header>
+
+        <section class="cards">
+          <article class="card one">
+            <h2>Supervisor</h2>
+            <p>Monitors activity to identify project roadblocks</p>
+            <img
+              src="./assets/images/icon-supervisor.svg"
+              alt="Supervisor icon"
+              width="64"
+              height="64"
+            />
+          </article>
+
+          <article class="card two">
+            <h2>Team Builder</h2>
+            <p>
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              src="./assets/images/icon-team-builder.svg"
+              alt="Team Builder icon"
+              width="64"
+              height="64"
+            />
+          </article>
+
+          <article class="card three">
+            <h2>Karma</h2>
+            <p>Regularly evaluates our talent to ensure quality</p>
+            <img
+              src="./assets/images/icon-karma.svg"
+              alt="Karma icon"
+              width="64"
+              height="64"
+            />
+          </article>
+
+          <article class="card four">
+            <h2>Calculator</h2>
+            <p>
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <img
+              src="./assets/images/icon-calculator.svg"
+              alt="Calculator icon"
+              width="64"
+              height="64"
+            />
+          </article>
+        </section>
       </div>
-    </div>
+    </main>
   </body>
 </html>
